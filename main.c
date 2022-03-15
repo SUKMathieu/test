@@ -7,5 +7,6 @@
 
 int main(int ac, char **av)
 {
+    printf("bite");
     return (0);
 }

@@ -20,6 +20,8 @@ FLAGS	=	-Wall \
 
 all:	nm
 
+test: nm
+
 nm:	$(NM_OBJ)
 	$(CC) -o $(NM_NAME) $(NM_OBJ) $(FLAGS)
 
