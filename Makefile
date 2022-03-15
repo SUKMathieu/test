@@ -20,7 +20,7 @@ FLAGS	=	-Wall \
 
 all:	nm
 
-test: nm
+test: 	nm
 
 nm:	$(NM_OBJ)
 	$(CC) -o $(NM_NAME) $(NM_OBJ) $(FLAGS)
@@ -33,4 +33,4 @@ fclean:	clean
 
 re:	fclean all
 
-.PHONY:	all nm clean fclean re
+.PHONY:	all nm clean fclean re test
